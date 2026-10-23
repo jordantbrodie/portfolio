@@ -1,0 +1,48 @@
+
+5 SPD 50 'set speed to 50%
+10 MOV P21 'move (joint interpolation) to P21, the approach point above station 1
+20 HOPEN 1 'open gripper to prepare for pick-up
+30 DLY 1 'delay 1s for the gripper to finish opening
+40 MVS P11 'move straight down to P11, the workpiece pick position at station 1
+50 HCLOSE 1 'close gripper to grasp the workpiece at P11
+60 DLY 1 'delay 1s for the gripper to finish closing
+70 MVS P21 'move straight back up to P21, lifting the workpiece clear of station 1
+
+90 MOV P22 'move (joint interpolation) to P22, the approach point above station 2, still holding the workpiece
+100 DLY 1 'delay 1s
+110 MVS P12 'move straight down to P12, placing the workpiece at station 2
+120 HOPEN 1 'open gripper to release the workpiece at P12
+130 DLY 1 'delay 1s for the gripper to finish opening
+140 MVS P22 'move straight back up to P22, clear of the workpiece
+150 DLY 1 'delay 1s
+160 MVS P12 'move straight back down to P12 to re-grasp the same workpiece
+170 HCLOSE 1 'close gripper to re-grasp the workpiece at P12
+180 DLY 1 'delay 1s for the gripper to finish closing
+190 MVS P22 'move straight back up to P22, lifting the workpiece clear
+
+200 MOV P24 'move to P24, the approach point above station 3, still holding the workpiece
+210 DLY 1 'delay 1s
+220 MVS P14 'move straight down to P14, placing the workpiece at station 3
+230 HOPEN 1 'open gripper to release the workpiece at P14
+240 DLY 1 'delay 1s
+250 MVS P24 'move straight back up to P24, clear of the workpiece
+260 DLY 1 'delay 1s
+270 MVS P14 'move straight back down to P14 to re-grasp the same workpiece
+280 HCLOSE 1 'close gripper to re-grasp the workpiece at P14
+290 DLY 1 'delay 1s
+300 MVS P24 'move straight back up to P24, lifting the workpiece clear
+
+310 MOV P26 'move to P26, the approach point above station 4, still holding the workpiece
+320 DLY 1 'delay 1s
+330 MVS P16 'move straight down to P16, placing the workpiece at its final station
+340 HOPEN 1 'open gripper to release the workpiece at P16
+350 DLY 1 'delay 1s
+360 MVS P26 'move straight back up to P26, clear of the workpiece
+370 DLY 1 'delay 1s
+380 MVS P16 'move straight back down to P16 to re-grasp the same workpiece
+390 HCLOSE 1 'close gripper to re-grasp the workpiece at P16
+400 DLY 1 'delay 1s
+410 MVS P26 'move straight back up to P26, holding the workpiece clear of station 4
+
+420 WAIT M_IN(5) = 1 'wait until external input signal 5 goes high before finishing
+430 END 'end of program

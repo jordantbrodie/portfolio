@@ -6,35 +6,43 @@ BSc Integrated Engineering (Mechatronics) student at Tallinn University of Techn
 
 ---
 
-## Projects
+## Highlights
 
-| Project | What it is | Tools | Status |
-|---|---|---|---|
-| **Untethered navigation & docking for a resident underwater vehicle** | Bachelor's thesis at NTNU's Applied Underwater Robotics Laboratory: onboard acoustic positioning so the vehicle can return to its docking station without a tether, compared against the tethered setup. | ROS 2, Gazebo | Starts Jan 2027 |
-| **FPV drone with onboard computer vision** | TalTech Drone Club build: airframe design and integration of flight controller, ESCs, motors and a YOLO object-detection payload. | YOLO, OpenCV, embedded | In progress |
-| **ROS 2 coursework** | Weekly robotics class work: nodes, topics, simulation. Updated every week. | ROS 2, C++, Python | Updated weekly |
-| **Computer vision pipelines** | Object detection and classification with YOLO and OpenCV. | Python, YOLO, OpenCV | Coming soon |
-| **Engineering test tooling** | From my 2026 electrical engineering internship: sensor interfacing and data-logging tools for environmental testing (general description only; no company data). | Python, JavaScript | Coming soon |
-| **Proposals & concept studies** | Engineering proposals and concept papers, including a phased concept for autonomous lunar infrastructure. | — | Coming soon |
+| Project | What it shows | Tools |
+|---|---|---|
+| [**ROS 2 wheel odometry & robot simulation**](ros2/) | Pose estimation from encoder ticks (wrap-around, quaternions, midpoint integration), a differential-drive robot in MuJoCo, bag recording and replay. Updated weekly. | ROS 2, Python, MuJoCo, RViz |
+| [**ABB robot drawing program**](industrial-robotics/abb-robotstudio-rapid/) | An IRB 1600 arm draws a circle and "JB": AutoPath and free targets, work objects, tool orientation, pen-up/pen-down moves. | RAPID, ABB RobotStudio |
+| [**Mitsubishi pick-and-place**](industrial-robotics/mitsubishi-melfa-basic/) | Four-station gripper routine with safe approach/retreat moves and an external start signal. | MELFA BASIC IV, CIROS Studio |
+| [**Object detection with YOLO + OpenCV**](computer-vision/object-detection-yolo-opencv/) | Train → detect → log pipeline for a custom dataset, plus a classic OpenCV tracker with unit tests. | Python, YOLOv8, OpenCV, pytest |
+| [**Arduino keypad calculator**](embedded-cpp/arduino-keypad-calculator/) | Hardware-independent C++ logic, unit-tested on a PC, running on an Arduino with keypad and LCD. | C++, Arduino, Make |
+| [**Proposals & concept studies**](docs/) | Green-hydrogen energy system for Estonia, autonomous lunar settlement, solar pilots, amphibious drone concept. | — |
+| [**AI-assisted tools**](ai-assisted-tools/) | Personal knowledge system with an MCP server, Home Assistant smart home, dashboards. | MCP, n8n, Home Assistant |
+
+## In progress
+
+| Project | Status |
+|---|---|
+| **Untethered navigation & docking for a resident underwater vehicle** — bachelor's thesis at NTNU's Applied Underwater Robotics Laboratory: onboard acoustic positioning so the vehicle can return to its dock without a tether. | Starts Jan 2027 |
+| **FPV drone with onboard computer vision** — TalTech Drone Club build with a YOLO detection payload. | In progress |
 
 ## Skills
 
-- **Programming:** Python, C, C++, Java, JavaScript
-- **Robotics:** ROS 2, Gazebo, MuJoCo, Webots; sensors, actuators, system integration
-- **Vision / ML:** YOLO, OpenCV
-- **Design & simulation:** SolidWorks, AutoCAD, Fusion, KiCad, MATLAB, Simulink, Simscape
+- **Programming:** Python, C, C++, Java, JavaScript, RAPID, MELFA BASIC
+- **Robotics:** ROS 2, MuJoCo, Gazebo, Webots, ABB RobotStudio, CIROS Studio; sensors, actuators, system integration
+- **Vision / ML:** YOLO, OpenCV, Roboflow
+- **Design & simulation:** SolidWorks, AutoCAD, Fusion, KiCad, MATLAB, Simulink, Simscape, Visual Components
 - **Testing:** EMC / LVD test planning, environmental and materials testing
 
-## Repository layout
+## How this repository is organised
 
-Each project gets its own folder with a README explaining the problem, what I did, and the results.
+Each folder has its own README explaining the problem, what I did and the results. Where a project was a team effort, rebuilt later, or written with AI help, its README says so.
 
 ```
 portfolio/
-├── README.md        ← you are here
-├── ros2/            ← weekly ROS 2 class work
-├── computer-vision/ ← YOLO & OpenCV projects
-├── drone/           ← FPV drone build
-├── thesis-auv/      ← NTNU thesis (from 2027)
-└── docs/            ← proposals and concept studies (PDF)
+├── ros2/                 ROS 2 coursework (links to the live repo)
+├── industrial-robotics/  ABB RAPID and Mitsubishi MELFA programs
+├── computer-vision/      YOLO and OpenCV
+├── embedded-cpp/         Arduino / C++
+├── ai-assisted-tools/    software built with AI coding assistants
+└── docs/                 proposals, concepts and lab reports (PDF, images)
 ```

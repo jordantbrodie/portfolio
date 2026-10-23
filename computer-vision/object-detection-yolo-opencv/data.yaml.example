@@ -1,0 +1,10 @@
+# Copy to data.yaml after exporting your dataset from Roboflow in "YOLOv8" format.
+# Paths are relative to this file.
+path: datasets/cans-and-mice
+train: train/images
+val: valid/images
+test: test/images
+
+names:
+  0: purk   # aluminium soda can (Estonian: "purk")
+  1: hiir   # computer mouse     (Estonian: "hiir")
