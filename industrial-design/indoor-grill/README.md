@@ -2,7 +2,7 @@
 
 **Course:** MED0130 Industrial Design Basics (TalTech, spring 2026) · **Team G:** Georg Berting, Jordan Brodie, Karl Johannes Randrüt, Marcus Karu · **Tools:** Miro (shared research board), SolidWorks, 3D printing
 
-A semester-long design project following a full human-centred design process, from interviews with real grill users to a CAD model and two physical prototypes. I took part in the user interviews and kept the team organised and on schedule.
+A semester-long design project following a full human-centred design process, from interviews with real grill users to a CAD model and two physical prototypes. I took part in the user interviews, helped build the SolidWorks CAD model together with my teammates, and kept the team organised and on schedule.
 
 ![Final CAD model, hood open and closed](images/render_hood_open.jpg)
 
@@ -72,7 +72,7 @@ Three concepts for the same user, scored against nine criteria. **Concept 1, a c
 
 ## 5. CAD
 
-Modelled as separate parts (body, hood, grill rack) from dimensioned sketches, then assembled.
+Modelled as a team (I worked on it with my teammates) as separate parts (body, hood, grill rack) from dimensioned sketches, then assembled.
 
 | Base sketch (700 × 350 mm) | Grill rack sketch | Grill body | Hood | Grill rack |
 |---|---|---|---|---|

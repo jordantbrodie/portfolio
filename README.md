@@ -43,6 +43,8 @@ BSc Integrated Engineering (Mechatronics) student at Tallinn University of Techn
 
 Each folder has its own README explaining the problem, what I did and the results. Where a project was a team effort, rebuilt later, or written with AI help, its README says so.
 
+**About AI use:** I organised this portfolio and wrote some of its code with an AI assistant (Claude by Anthropic), which shows up as a co-author on some commits. The coursework, designs, reports and engineering decisions are my own or my teams', as credited in each folder; AI-assisted code is labelled where it appears.
+
 ```
 portfolio/
 ├── industrial-robotics/   ABB RAPID (sim + real robot), Mitsubishi MELFA

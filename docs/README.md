@@ -6,7 +6,7 @@ Independent proposals I wrote outside my coursework. AI tools helped with resear
 
 | Document | Date | Summary |
 |---|---|---|
-| Estonia Integrated Green Hydrogen Energy System (EIGHES) — *PDF coming soon* | Mar 2026 · 25 pp | A national framework for producing, storing and exporting solar-powered green hydrogen in Estonia, aligned with Estonia's ENMAK 2035 energy plan and the EU REPowerEU programme. Also translated into Estonian. |
+| [Estonia Integrated Green Hydrogen Energy System (EIGHES)](proposals/EIGHES_Estonia_Green_Hydrogen_Proposal.pdf) | Mar 2026 · 25 pp | A national framework for producing, storing and exporting solar-powered green hydrogen in Estonia, aligned with Estonia's ENMAK 2035 energy plan and the EU REPowerEU programme. Also translated into Estonian. |
 | [Lunar Settlement Vision: Autonomous Factory-First Approach](proposals/Lunar_Settlement_Autonomous_Factory_First.pdf) | Jan 2026 · 12 pp | A phased concept for building lunar infrastructure with autonomous robots and local resources before people arrive. |
 | [Global Solar Energy Project Proposal and Thesis Plan](proposals/Global_Solar_Energy_Project_Proposal.pdf) | Sep 2025 · 9 pp | Small pilot solar installations in Botswana, Estonia and New Mexico to compare panel efficiency and economics across markets. |
 | [Proposal for a Pan-African Economic Enforcement Alliance](proposals/Pan_African_Economic_Enforcement_Alliance.pdf) | Aug 2025 · 4 pp | A policy essay written during my exchange at the Botswana International University of Science and Technology (BIUST) on fair pricing for African exports. |
