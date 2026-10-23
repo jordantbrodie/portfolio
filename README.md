@@ -6,6 +6,10 @@ BSc Integrated Engineering (Mechatronics) student at Tallinn University of Techn
 
 ---
 
+## Start here: systems engineering in one page
+
+➡ **[Electric winch case study](systems-engineering/winch-case-study.md)**: 11 requirements traced to design decisions, verification and results, a change-impact analysis and configuration control. More case studies are in [`systems-engineering/`](systems-engineering/).
+
 ## Highlights
 
 | Project | What it shows | Tools |
@@ -22,6 +26,13 @@ BSc Integrated Engineering (Mechatronics) student at Tallinn University of Techn
 | [**Embedded C / C++**](embedded-cpp/) | Arduino keypad calculator with PC unit tests; first-year C coursework. | C, C++, Arduino |
 | [**Proposals, concepts & reports**](docs/) | Green-hydrogen energy system, autonomous lunar settlement, solar pilots, amphibious drone concept, and coursework reports. | — |
 | [**AI-assisted tools**](ai-assisted-tools/) | Personal knowledge system with an MCP server, Home Assistant smart home, dashboards. | MCP, n8n, Home Assistant |
+
+## Personal projects (outside class)
+
+| Project | Status |
+|---|---|
+| [**AquaFlyer: amphibious fly / float / drive drone**](personal-projects/aquaflyer/): mission, draft requirements, concept trade-off and architecture, then build | Concept stage · started Oct 2026 |
+| [**Nano long-range FPV drone**](personal-projects/nano-fpv-drone/): fully 3D-printed quad on one 18650 cell, with plan and mass breakdown | Planned build |
 
 ## In progress
 
@@ -47,11 +58,13 @@ Each folder has its own README explaining the problem, what I did and the result
 
 ```
 portfolio/
+├── systems-engineering/   case studies: requirements → design → verification
 ├── industrial-robotics/   ABB RAPID (sim + real robot), Mitsubishi MELFA
 ├── robot-kinematics/      MATLAB / Simulink kinematics + Python port
 ├── ros2/                  ROS 2 coursework (links to the live repo)
 ├── mechanical-design/     electric winch: calculations, CAD, drawings
 ├── computer-vision/       YOLO and OpenCV
+├── personal-projects/     my own builds outside class (AquaFlyer, nano FPV drone)
 ├── industrial-design/     indoor grill, trigonometric wheel (CAD + process)
 ├── digital-manufacturing/ Visual Components digital twin
 ├── fluid-power/           FluidSIM pneumatic circuits

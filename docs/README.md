@@ -19,7 +19,7 @@ A small, 3D-printable vehicle meant to **fly, float and drive**. I iterate the s
 |---|---|---|
 | ![](concepts/icarus/aquaflyer_3wheel_dual_hatches.jpg) | ![](concepts/icarus/render_flying_boat_v3.jpg) | ![](concepts/icarus/render_clean_quad.jpg) |
 
-*Concept renders, not CAD. Status: concept stage.*
+*Concept renders, not CAD. The project now has its own page: [personal-projects/aquaflyer](../personal-projects/aquaflyer/).*
 
 ## Coursework reports
 
