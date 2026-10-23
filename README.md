@@ -15,6 +15,7 @@ BSc Integrated Engineering (Mechatronics) student at Tallinn University of Techn
 | [**RPR manipulator kinematics**](robot-kinematics/rpr-manipulator/) | Forward kinematics, workspace, inverse kinematics and Simscape simulation in MATLAB; Python port with a closed-form IK and 56 tests. | MATLAB, Simulink, Python |
 | [**ROS 2 wheel odometry & simulation**](ros2/) | Pose estimation from encoder ticks, differential-drive robot in MuJoCo, bag recording and replay. Updated weekly. | ROS 2, Python, MuJoCo |
 | [**Object detection with YOLO + OpenCV**](computer-vision/object-detection-yolo-opencv/) | Train → detect → log pipeline for a custom dataset, plus a classic OpenCV tracker with tests. | Python, YOLOv8, OpenCV |
+| [**Indoor grill: human-centred product design**](industrial-design/indoor-grill/) | User interviews → insights → problem statements → concept matrix → CMF → SolidWorks CAD → two physical prototypes (team of four). | Miro, SolidWorks |
 | [**Digital twin of a machining cell**](digital-manufacturing/visual-components-cell/) | Robot-tended CNC cell with conveyors, gantries and storage, simulated before build. | Visual Components |
 | [**Pneumatic control sequences**](fluid-power/pneumatics-fluidsim/) | Nine circuits up to two-cylinder automatic sequences with limit-switch interlocks. | FluidSIM |
 | [**Mitsubishi pick-and-place**](industrial-robotics/mitsubishi-melfa-basic/) | Four-station gripper routine with safe approach and retreat moves. | MELFA BASIC, CIROS |
@@ -36,7 +37,7 @@ BSc Integrated Engineering (Mechatronics) student at Tallinn University of Techn
 - **Programming:** Python, C, C++, MATLAB, JavaScript, RAPID, MELFA BASIC
 - **Robotics:** ROS 2, MuJoCo, Gazebo, ABB RobotStudio, CIROS Studio, Simscape Multibody; kinematics, odometry, sensors and actuators
 - **Vision / ML:** YOLO, OpenCV, Roboflow
-- **Design & simulation:** SolidWorks, AutoCAD, Fusion, KiCad, Simulink, Visual Components, FluidSIM
+- **Design & simulation:** human-centred design (interviews, concept selection), SolidWorks, AutoCAD, Fusion, KiCad, Simulink, Visual Components, FluidSIM
 
 ## How this repository is organised
 
@@ -49,6 +50,7 @@ portfolio/
 ├── ros2/                  ROS 2 coursework (links to the live repo)
 ├── mechanical-design/     electric winch: calculations, CAD, drawings
 ├── computer-vision/       YOLO and OpenCV
+├── industrial-design/     indoor grill, trigonometric wheel (CAD + process)
 ├── digital-manufacturing/ Visual Components digital twin
 ├── fluid-power/           FluidSIM pneumatic circuits
 ├── embedded-cpp/          Arduino / C / C++

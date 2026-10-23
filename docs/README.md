@@ -35,4 +35,4 @@ Robotics and mechanical reports that have their own project page are linked ther
 | [Product analysis: a scholarship backpack](coursework-reports/MED0130_Product_Analysis_Backpack.pdf) | MED0130 Industrial Design Basics, 2026 | Context, use and quality analysis of a real product |
 | [Solar PV lab report: power vs irradiance, maximum power point, temperature](coursework-reports/ENER511_Solar_PV_Lab_Report_BIUST.pdf) | ENER 511 Solar Energy Engineering, BIUST (Botswana exchange), 2025 | With lab partner Laone Matsetse |
 | [Casting, forming and machining](coursework-reports/MTM0070_Casting_Forming_Machining.pdf) | MTM0070 Materials Engineering, 2025 | Forging design and process selection |
-| [Trigonometric Wheel: rapid prototyping product project](coursework-reports/EMT0230_Rapid_Prototyping_Trigonometric_Wheel.pdf) | EMT0230 Rapid Prototyping, 2024 | Team of five; my role was financial planning and production cost analysis |
+| [Trigonometric Wheel: rapid prototyping product project](../industrial-design/trigonometric-wheel/Trigonometric_Wheel_Report.pdf) | EMT0230 Rapid Prototyping, 2024 | [project page](../industrial-design/trigonometric-wheel/) |
