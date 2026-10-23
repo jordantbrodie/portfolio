@@ -21,9 +21,18 @@ A small, 3D-printable vehicle meant to **fly, float and drive**. I iterate the s
 
 *Concept renders, not CAD. Status: concept stage.*
 
-## Coursework lab reports
+## Coursework reports
 
-| Report | Course |
-|---|---|
-| [Lab 1: Mitsubishi RV-2AJ pick-and-place](coursework-reports/ATR0030_Lab1_Mitsubishi_RV-2AJ.pdf) | ATR0030 Robotics, 2026 |
-| [Lab 2: ABB RobotStudio virtual station](coursework-reports/ATR0030_Lab2_ABB_RobotStudio.pdf) | ATR0030 Robotics, 2026 |
+Robotics and mechanical reports that have their own project page are linked there too.
+
+| Report | Course | Notes |
+|---|---|---|
+| [Lab 1: Mitsubishi RV-2AJ pick-and-place](coursework-reports/ATR0030_Lab1_Mitsubishi_RV-2AJ.pdf) | ATR0030 Robotics, 2026 | [project page](../industrial-robotics/mitsubishi-melfa-basic/) |
+| [Lab 2: ABB RobotStudio virtual station](coursework-reports/ATR0030_Lab2_ABB_RobotStudio.pdf) | ATR0030 Robotics, 2026 | [project page](../industrial-robotics/abb-robotstudio-rapid/) |
+| [Lab 3: ABB IRB 1600, real robot](coursework-reports/ATR0030_Lab3_ABB_IRB1600_Real_Robot.pdf) | ATR0030 Robotics, 2026 | [project page](../industrial-robotics/abb-robotstudio-rapid/) |
+| [Strength analysis of a bar structure](coursework-reports/MES0220_HW1_Bar_Structure_Strength.pdf) | MES0220 Machine Engineering, 2026 | Statics and stress check in S355 |
+| [Section centroid and moments of inertia](coursework-reports/MES0220_HW2_Section_Properties.pdf) | MES0220 Machine Engineering, 2026 | Composite section properties |
+| [Product analysis: a scholarship backpack](coursework-reports/MED0130_Product_Analysis_Backpack.pdf) | MED0130 Industrial Design Basics, 2026 | Context, use and quality analysis of a real product |
+| [Solar PV lab report: power vs irradiance, maximum power point, temperature](coursework-reports/ENER511_Solar_PV_Lab_Report_BIUST.pdf) | ENER 511 Solar Energy Engineering, BIUST (Botswana exchange), 2025 | With lab partner Laone Matsetse |
+| [Casting, forming and machining](coursework-reports/MTM0070_Casting_Forming_Machining.pdf) | MTM0070 Materials Engineering, 2025 | Forging design and process selection |
+| [Trigonometric Wheel: rapid prototyping product project](coursework-reports/EMT0230_Rapid_Prototyping_Trigonometric_Wheel.pdf) | EMT0230 Rapid Prototyping, 2024 | Team of five; my role was financial planning and production cost analysis |

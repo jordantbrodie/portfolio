@@ -6,6 +6,12 @@ Detect and count objects live from a webcam. The model is trained on a custom da
 
 In **MET0340 Digital Manufacturing** (TalTech, spring 2026) my team of four trained a YOLO model in Roboflow and Google Colab to recognise an aluminium soda can (*purk*) and a computer mouse (*hiir*) from a laptop webcam. It reached up to **97 % confidence** on cans and could detect both classes in the same frame. My part was use-case planning and testing.
 
+| Two cans detected (up to 97 % confidence) | Mouse (*hiir*) and can (*purk*) in the same frame |
+|---|---|
+| ![](results/coursework_two_cans_97pct.jpg) | ![](results/coursework_mouse_and_can.jpg) |
+
+*Results from the original coursework model, running on a laptop webcam.*
+
 That coursework ran in hosted notebooks. **This folder is my own 2026 re-implementation as a standalone local Python project**, written with AI assistance, so the full pipeline (train → detect → log) can be run and inspected on any machine.
 
 Team for the original coursework: Mairo Kütt, Karl-Georg Ploom, Georgi Sitnikov and me.
