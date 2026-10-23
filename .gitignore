@@ -1,0 +1,27 @@
+# ROS 2 / colcon build output
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# C++ build artifacts
+*.o
+*.so
+CMakeFiles/
+CMakeCache.txt
+
+# Large ML files — link to them instead of committing
+*.pt
+*.onnx
+datasets/
+runs/
+
+# OS / editor
+.DS_Store
+.vscode/
+.idea/
